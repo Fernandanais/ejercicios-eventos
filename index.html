@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Codystar|Jacques+Francois+Shadow" rel="stylesheet">
 	<meta charset="UTF-8">
+
 	<title>Ejercicio guiado</title>
 </head>
 <body onload="load()">
-	<button  onclick="saludar()"> saluda al mundo </button>
-	<h2 id ="demo"></h2>
+	<button  onclick="saludar()"> <h3>saluda al mundo</h3> </button>
+	<h1 id ="demo"></h1>
 
-<input type="text" name="dentro" id="dentro">
-<input type="text" name="fuera" id="fuera">
+<input type="text" name="dentro" id="dentro" onmouseover="dentro()">
+<input type="text" name="fuera" id="fuera" onmouseout="fuera()">
 
 
 <script type="text/javascript" src="js/main.js"></script>
